@@ -1,0 +1,30 @@
+{
+  "name": "green-beautiful",
+  "displayName": "Green Beautiful",
+  "description": "Green and Dark Theme for VS Code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "icon": "icons/green-beautiful-icon.png",
+  "author": {
+    "name": "David Lee",
+    "email": "dark.butterfly.dev@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/Global-Point/green-beautiful.git",
+    "type": "git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Beautiful",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Green Beautiful-color-theme.json"
+      }
+    ]
+  }
+}
